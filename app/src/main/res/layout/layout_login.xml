@@ -29,7 +29,7 @@
             android:layout_marginTop="@dimen/loginViewsMargin">
 
             <EditText
-                android:id="@+id/editTextEmail"
+                android:id="@+id/loginMail"
                 style="@style/modifiedEditText"
                 android:hint="@string/login_email_hint"
                 android:inputType="textEmailAddress"
@@ -43,7 +43,7 @@
             android:layout_marginTop="@dimen/loginViewsMargin">
 
             <EditText
-                android:id="@+id/editTextPassword"
+                android:id="@+id/loginPassword"
                 style="@style/modifiedEditText"
                 android:hint="@string/login_password_hint"
                 android:inputType="textPassword"
@@ -52,20 +52,21 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/cirLoginButton"
+            android:id="@+id/loginButton"
             style="@style/loginButton"
             android:text="Login"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/loginViewsMargin"/>
 
         <TextView
+            android:id="@+id/toRegister"
             style="@style/parent"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textColor="@color/primaryTextColor"
-            android:text="@string/login_signup_hint"
+            android:layout_marginTop="@dimen/loginViewsMargin"
             android:onClick="viewRegisterClicked"
-            android:layout_marginTop="@dimen/loginViewsMargin"/>
+            android:text="@string/login_signup_hint"
+            android:textAlignment="center"
+            android:textColor="@color/primaryTextColor"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
