@@ -48,8 +48,9 @@
                     android:layout_gravity="center"
                     android:text="Quiz-App"
                     android:layout_marginTop="40dp"/>
-                <include
-                    layout="@layout/layout_register"/>
+
+                ,,<include
+                    layout="@layout/layout_login"/>
 
             </LinearLayout>
             <ImageView
