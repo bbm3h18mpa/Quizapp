@@ -6,4 +6,7 @@
     <string name="signup_password_hint_repeat">Password repeat</string>
     <string name="signup_login_hint">Already have an account? Sign In</string>
     <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="menu_item_1">Solo</string>
+    <string name="menu_item_2">Duo</string>
+    <string name="menu_item_3">Settings</string>
 </resources>

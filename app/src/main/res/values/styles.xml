@@ -45,4 +45,27 @@
         <item name="android:textColor">@color/whiteTextColor</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="answerButton" parent="viewParent">
+        <item name="android:background">@drawable/answer_button_bk</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="volumeButtonOn" parent="viewParent">
+        <item name="android:background">@drawable/volume_button_bk</item>
+        <item name="android:src">@drawable/volume</item>
+
+    </style>
+
+    <style name="volumeButtonOff" parent="viewParent">
+        <item name="android:background">@drawable/volume_button_bk</item>
+        <item name="android:src">@drawable/mute</item>
+    </style>
+    <style name="reset" parent="viewParent">
+        <item name="android:background">@drawable/volume_button_bk</item>
+        <item name="android:src">@drawable/reset</item>
+    </style>
+
 </resources>

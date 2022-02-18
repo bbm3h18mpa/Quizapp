@@ -15,7 +15,7 @@ public class LoginActivityPresenter implements LoginActivityContract.Presenter{
         view.getLoginButton().setOnClickListener(new View.OnClickListener(){
            @Override
            public void onClick(View v){
-               //Presenter talks to the model
+               //Presenter talks to the model/view
            }
         });
     }

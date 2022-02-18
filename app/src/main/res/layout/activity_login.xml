@@ -20,9 +20,9 @@
 
                 <LinearLayout
                     style="@style/parent"
+                    android:layout_weight="3"
                     android:background="@drawable/login_shape_bk"
-                    android:orientation="vertical"
-                    android:layout_weight="3">
+                    android:orientation="vertical">
 
                     <ImageView
                         style="@style/parent"
@@ -37,30 +37,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentTop="true"
-                android:orientation="vertical"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginLeft="30dp">
+                android:orientation="vertical">
 
 
                 <TextView
                     style="@style/headerText"
                     android:layout_gravity="center"
-                    android:text="Quiz-App"
-                    android:layout_marginTop="40dp"/>
+                    android:layout_marginTop="40dp"
+                    android:text="Quiz-App" />
 
-                <include
-                    layout="@layout/layout_login"/>
+                <include layout="@layout/layout_login" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="30dp"
-                android:layout_marginLeft="10dp"
-                android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
         </RelativeLayout>
 
     </ScrollView>
