@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizapp">
         <activity
+            android:name=".view.home.HomeActivityView"
+            android:exported="false" />
+        <activity
             android:name=".view.start.StartActivityView"
             android:exported="true" />
         <activity
