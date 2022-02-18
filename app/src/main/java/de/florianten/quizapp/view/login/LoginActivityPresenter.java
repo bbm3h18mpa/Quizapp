@@ -1,9 +1,14 @@
 package de.florianten.quizapp.view.login;
 
 import de.florianten.quizapp.model.Model;
-import android.view.View;
+import de.florianten.quizapp.view.menu.MenuActivityView;
 
-public class LoginActivityPresenter implements LoginActivityContract.Presenter{
+import android.app.Activity;
+import android.content.Intent;
+import android.view.View;
+import android.widget.Toast;
+
+public class LoginActivityPresenter  implements LoginActivityContract.Presenter{
     private final LoginActivityContract.View view;
     private final Model model = new Model();
 
@@ -11,12 +16,15 @@ public class LoginActivityPresenter implements LoginActivityContract.Presenter{
         this.view = view;
     }
     @Override
-    public void setListeners(){
+    public void setListeners() {
         view.getLoginButton().setOnClickListener(new View.OnClickListener(){
            @Override
            public void onClick(View v){
                //Presenter talks to the model/view
+               view.test();
+               view.switchPage(MenuActivityView.class);
            }
         });
     }
+
 }

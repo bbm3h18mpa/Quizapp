@@ -1,9 +1,12 @@
 package de.florianten.quizapp.view.login;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -34,4 +37,15 @@ public class LoginActivityView  extends AppCompatActivity implements LoginActivi
     public EditText getPassword(){ return password; }
     @Override
     public TextView getToRegister(){ return toRegister;}
+
+    @Override
+    public void switchPage(Class<? extends Activity> destinationClass) {
+        Intent intent = new Intent(this, destinationClass);
+        startActivity(intent);
+    }
+
+    @Override
+    public void test(){
+        Toast.makeText(this, "du hurensohn android", Toast.LENGTH_SHORT).show();
+    }
 }

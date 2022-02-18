@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/soloFragment">
+
+    <fragment
+        android:id="@+id/soloFragment"
+        android:name="de.florianten.quizapp.view.menu.SoloFragment"
+        android:label="fragment_solo2"
+        tools:layout="@layout/fragment_solo" />
+    <fragment
+        android:id="@+id/duoFragment"
+        android:name="de.florianten.quizapp.view.menu.DuoFragment"
+        android:label="fragment_duo2"
+        tools:layout="@layout/fragment_duo" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="de.florianten.quizapp.view.menu.SettingsFragment"
+        android:label="fragment_settings2"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

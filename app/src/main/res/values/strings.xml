@@ -9,4 +9,6 @@
     <string name="menu_item_1">Solo</string>
     <string name="menu_item_2">Duo</string>
     <string name="menu_item_3">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
